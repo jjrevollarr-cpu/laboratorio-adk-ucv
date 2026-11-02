@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from google.adk.agents.llm_agent import Agent
 
-# Cargar variables de entorno desde el archivo .env
 load_dotenv()
 
 
