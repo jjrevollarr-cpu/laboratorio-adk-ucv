@@ -1,24 +1,9 @@
-[project]
+[tool.poetry]
 name = "laboratorio-adk-ucv"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "jjrevollarr-cpu",email = "tu_correo@ejemplo.com"}
-]
-requires-python = ">=3.14"
-dependencies = [
-    "google-adk (>=2.13.0,<3.0.0)",
-    "python-dotenv (>=1.2.4,<2.0.0)"
-]
+description = "Agente UCV"
+authors = ["Tu Nombre <tu@email.com>"]
+package-mode = false
 
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
-
-[dependency-groups]
-dev = [
-    "pytest (>=9.2.0,<10.0.0)"
-]
 [tool.pytest.ini_options]
 pythonpath = ["."]
